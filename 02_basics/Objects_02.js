@@ -56,10 +56,17 @@ const {courseInstructor:instructor} = course
 console.log(instructor);
 
 
-//JSON
+//JSON in the format of objects
+
 // {
 //     "name": "adarsh",
 //     "courseName": "dsa",
 //     "price": "1999"
 // }
 
+// in the format of Arrays
+[
+    {},
+    {},
+    {}
+]
