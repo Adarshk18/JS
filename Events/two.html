@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chai Aur Code</h1>
+    <button id="stop">Stop</button>
+
+   
+</body>
+<script>
+    // it basically gives about the time lapse like this will happen after this time etc.
+    const name = function(){
+        console.log("Adarsh");
+    }
+    const changetext = function(){
+        document.querySelector('h1').innerHTML = "Talented Guy"
+
+    }
+    const changeMe = setTimeout(changetext,2000)
+
+    document.querySelector('#stop').addEventListener('click',function(){
+        clearTimeout(changeMe)
+    })
+    setTimeout(name,2000)
+</script>
+</html>
